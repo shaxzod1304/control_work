@@ -1,0 +1,136 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+
+
+
+.info {
+    padding: 28px;
+    background-color: #3a7fd9;
+    height: 198px;
+    width: 1140px;
+    border-radius: 4px;
+    margin: 50px auto;
+
+
+    h1 {
+        color: white;
+    }
+
+    h4 {
+        color: white;
+        margin-top: 30px;
+        font-weight: 500;
+    }
+}
+
+.search {
+    margin: 30px 0px;
+    padding: 28px;
+    background-color: #3a7fd9;
+    height: 146px;
+    width: 1140px;
+    border-radius: 4px;
+    margin: 50px auto;
+
+
+    input {
+        height: 38px;
+        width: 950px;
+        padding: 0px 15px;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+
+    }
+
+}
+
+.btns {
+    margin: 20px 0px;
+
+    .btn {
+        background-color: transparent;
+        border: 1px solid white;
+        height: 38px;
+        width: 148px;
+        color: white;
+        font-weight: 500;
+
+    }
+}
+
+.create_new_rabotnik {
+    margin: 30px 0px;
+    padding: 28px;
+    background-color: #3a7fd9;
+    height: 150px;
+    width: 1140px;
+    border-radius: 4px;
+    margin: 50px auto;
+
+
+    h1 {
+        color: white;
+    }
+
+    form {
+        input {
+            padding: 0px 15px;
+            margin: 10px 0px;
+            height: 38px;
+            width: 350px;
+
+        }
+
+        button {
+            background-color: transparent;
+            border: 2px solid white;
+            height: 40px;
+            width: 150px;
+            color: white;
+            font-weight: 500;
+        }
+    }
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .700);
+    border-radius: 10px;
+    width: 1140px;
+    height: 78px;
+    margin: 0 auto;
+
+
+
+    .list-input {
+        border: solid transparent;
+        margin-top: -10px;
+        text-align: center;
+        width: 230px;
+        height: 41px;
+        font-size: 25px;
+    }
+
+    .list-text {
+        color: #212529;
+        width: 500px;
+
+    }
+
+    .img {
+        height: 20px;
+    }
+}
